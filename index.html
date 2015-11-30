@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header style="text-align: center">
+        <h1>Header</h1>
+    </header>
+    <div class="main-nav" style="text-align: center">
+        <a href="#" class="sub-nav-btn" id="sub-nav-btn">— — —</a>
+        <a href="videoselfie.html" class="active">Videoselfie</a>
+        <a href="broadcast.html">Broadcasts</a>
+        <a href="#">Adult only</a>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide videoselfie-page">Videoselfie</div>
+            <div class="swiper-slide broadcast-page">Broadcast</div>
+            <div class="swiper-slide adultvideo-page">Adultvideo</div>
+        </div>
+    </div>
+
+    <script src="script/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container');
+    </script>
+</body>
+</html>
